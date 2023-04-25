@@ -24,13 +24,7 @@ WA.onInit().then(() => {
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
-   WA.ui.modal.openModal({
-        title: "Bienvenue chez Alpes Contrôles",
-        src: 'https://www.alpes-controles.fr/',
-        position: "right"
-    });
-
-
+ 
 WA.room.area.onEnter('NosAgences').subscribe(() => {
               currentPopup = WA.ui.openPopup("NosAgencesPopUp", "Salut toi", [
 
