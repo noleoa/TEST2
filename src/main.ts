@@ -27,7 +27,7 @@ WA.onInit().then(() => {
    WA.ui.modal.openModal({
         title: "Bienvenue chez Alpes Contrôles",
         src: 'https://www.alpes-controles.fr/',
-        position: "center"
+        position: "right"
     });
 
 
