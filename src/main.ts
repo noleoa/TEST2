@@ -8,6 +8,7 @@ console.log('Script started successfully');
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
+let currentPopup;
 
 // Waiting for the API to be ready
 WA.onInit().then(() => {
@@ -55,8 +56,8 @@ WA.room.area.onEnter("Test").subscribe(() => {
 
 
 
-    }).catch(e => console.error(e));
-function closePopup(){
+   }).catch(e => console.error(e));
+  function closePopup(){
     if (currentPopup !== undefined) {
         currentPopup.close();
         currentPopup = undefined;
