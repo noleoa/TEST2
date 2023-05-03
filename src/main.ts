@@ -9,6 +9,7 @@ let currentPopup: any = undefined;
         console.log('Scripting API Extra ready');
     }).catch(e => console.error(e));
 
+
 // Waiting for the API to be ready
 WA.onInit().then(() => {
 
