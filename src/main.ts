@@ -26,7 +26,7 @@ WA.onInit().then(() => {
 
  
 WA.room.area.onEnter("Test").subscribe(() => {
-              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra sois activés. Besoin d'aide ? Retourne sur le logo Alpes Contrôles : Le tuto apparaîtra sur ta droite.", [{
+              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra soient bien activés. \n\n Besoin d'aide ?\n Appuie sur le bouton [Je suis perdu(e)] en bas de ton écran.", [{
         label: "Ok, Merci !",
         className: "normal",
         callback: (popup) => {
@@ -53,5 +53,33 @@ function closePopup(){
         currentPopup = undefined;
       }
 }
+
+WA.ui.actionBar.addButton({
+        id: 'lost-btn',
+        label: 'Je suis perdu(e)',
+		callback: () => {
+        WA.ui.modal.openModal({
+    title: "Je suis perdu(e)e",
+        src: 'https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf',
+        allow: "fullscreen",
+        position: "center"
+   });
+    }
+})
+
+WA.ui.actionBar.addButton({
+        id: 'map-btn',
+        label: 'Plan de la carte',
+		callback: () => {
+        WA.ui.modal.openModal({
+    title: "Plan de la carte",
+        src: 'https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf',
+        allow: "fullscreen",
+        position: "center"
+   });
+
+myWebsite.position.vertical = "top";
+    }
+})
 
 export {}; 
