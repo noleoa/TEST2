@@ -26,7 +26,7 @@ WA.onInit().then(() => {
 
  
 WA.room.area.onEnter("Test").subscribe(() => {
-              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra sois activés. Besoin d'aide ? Retourne sur le logo Alpes Contrôles : Le tuto apparaîtra sur ta droite.", [{
+              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra sois activés. /n Besoin d'aide ? /n Appuie sur le bouton [Je suis perdu(e)] en bas de l'écran.", [{
         label: "Ok, Merci !",
         className: "normal",
         callback: (popup) => {
@@ -54,7 +54,6 @@ function closePopup(){
       }
 }
 
-<<<<<<< HEAD
 WA.ui.actionBar.addButton({
         id: 'lost-btn',
         label: 'Je suis perdu(e)',
@@ -81,7 +80,4 @@ WA.ui.actionBar.addButton({
     }
 })
 
-
-=======
->>>>>>> parent of 95b4497 (Adding menu and Image Map modified)
 export {}; 
