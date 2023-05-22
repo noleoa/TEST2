@@ -77,9 +77,8 @@ WA.ui.actionBar.addButton({
         allow: "fullscreen",
         position: "center"
    });
-
-myWebsite.position.vertical = "top";
     }
 })
+
 
 export {}; 
