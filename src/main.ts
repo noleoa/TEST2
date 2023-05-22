@@ -54,13 +54,17 @@ function closePopup(){
       }
 }
 
+
 WA.ui.actionBar.addButton({
         id: 'lost-btn',
         label: 'Je suis perdu(e)',
 		callback: () => {
         WA.ui.modal.openModal({
-    title: "Je suis perdu(e)e",
+title: "Je suis perdu(e)e",
         src: 'https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf',
+	allow: "fullscreen",
+    	allowApi: true,
+    	position: "center",
            });
     }
 })
@@ -72,6 +76,9 @@ WA.ui.actionBar.addButton({
         WA.ui.modal.openModal({
     title: "Plan de la carte",
         src: 'https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf',
+	allow: "fullscreen",
+    	allowApi: true,
+    	position: "center",
    });
     }
 })
