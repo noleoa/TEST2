@@ -63,7 +63,7 @@ const Menu = WA.ui.registerMenuCommand("menu test",
         }
     })
 
-const myAreaSubscriber = WA.room.area.onEnter("Welcome").subscribe(() => {
+WA.room.area.onEnter("Welcome").subscribe(() => {
   WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !!" + "Ravi de t'accueillir !"+"Dirige-toi vers l'accueil en passant par la porte bleue, quelqu'un va s'occuper de toi !"+ "Si tu es perdu.e, tu peux cliquer sur le bouton [Besoin d'aide ?] en bas de ton écran."+"A tout moment, tu peux également retrouver un plan de la carte en cliquant sur [Plan de la carte]."),"Chatbot");
 });
 
