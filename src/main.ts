@@ -26,7 +26,7 @@ WA.onInit().then(() => {
 
  
 WA.room.area.onEnter("Test").subscribe(() => {
-              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra sois activés. /n Besoin d'aide ? /n Appuie sur le bouton [Je suis perdu(e)] en bas de l'écran.", [{
+              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra sois activés.", [{
         label: "Ok, Merci !",
         className: "normal",
         callback: (popup) => {
@@ -55,30 +55,48 @@ function closePopup(){
 }
 
 
+
+const Menu = WA.ui.registerMenuCommand("menu test",
+    {
+       callback: () => {
+            WA.chat.sendChatMessage("Bienvenu.e "+ WA.player.name +" !!" + "Ravi de t'accueillir !"+"Dirige-toi vers l'accueil, quelqu'un va s'occuper de toi !"+ "Si tu es perdu.e, tu peux cliquer sur le bouton [Besoin d'aide] en bas de ton écran."+"A tout moment, tu peux également retrouver un plan de la carte en cliquant sur [Plan de la carte].");
+        }
+    })
+
+const myAreaSubscriber = WA.room.area.onEnter("Welcome").subscribe(() => {
+  WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !!" + "Ravi de t'accueillir !"+"Dirige-toi vers l'accueil en passant par la porte bleue, quelqu'un va s'occuper de toi !"+ "Si tu es perdu.e, tu peux cliquer sur le bouton [Besoin d'aide ?] en bas de ton écran."+"A tout moment, tu peux également retrouver un plan de la carte en cliquant sur [Plan de la carte]."),"Chatbot");
+});
+
+WA.room.area.onLeave('Welcome').subscribe(() => {
+    WA.chat.close();
+});
+
+
+
 WA.ui.actionBar.addButton({
-        id: 'lost-btn',
-        label: 'Je suis perdu(e)',
+        id: "help-btn",
+        label: "Besoin d'aide ?",
 		callback: () => {
         WA.ui.modal.openModal({
 title: "Je suis perdu(e)e",
-        src: 'https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf',
+        src: "https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf",
 	allow: "fullscreen",
     	allowApi: true,
-    	position: "center",
+    	position: "right",
            });
     }
 })
 
 WA.ui.actionBar.addButton({
-        id: 'map-btn',
+        id: "map-btn",
         label: 'Plan de la carte',
 		callback: () => {
         WA.ui.modal.openModal({
     title: "Plan de la carte",
-        src: 'https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf',
+        src: "https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf",
 	allow: "fullscreen",
     	allowApi: true,
-    	position: "center",
+    	position: "right",
    });
     }
 })
