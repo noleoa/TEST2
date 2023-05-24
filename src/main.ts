@@ -56,18 +56,51 @@ function closePopup(){
 
 
 
-WA.ui.registerMenuCommand("menu test",
-    {
-       callback: () => {
-            WA.chat.sendChatMessage("Bienvenu.e "+ WA.player.name +" !!" + "Ravi de t'accueillir !"+"Dirige-toi vers l'accueil, quelqu'un va s'occuper de toi !"+ "Si tu es perdu.e, tu peux cliquer sur le bouton [Besoin d'aide] en bas de ton écran."+"A tout moment, tu peux également retrouver un plan de la carte en cliquant sur [Plan de la carte].");
-        }
-    })
 
 WA.room.area.onEnter("Welcome").subscribe(() => {
-  WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !!" + "Ravi de t'accueillir !"+"Dirige-toi vers l'accueil en passant par la porte bleue, quelqu'un va s'occuper de toi !"+ "Si tu es perdu.e, tu peux cliquer sur le bouton [Besoin d'aide ?] en bas de ton écran."+"A tout moment, tu peux également retrouver un plan de la carte en cliquant sur [Plan de la carte]."),"Chatbot");
+  WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !!" + "Ravi de t'accueillir !"+"Dirige-toi vers l'accueil en passant par la porte bleue, quelqu'un va s'occuper de toi !"+ "Si tu es perdu.e, tu peux cliquer sur le bouton [Besoin d'aide ?] en bas de ton écran."+"A tout moment, tu peux également retrouver un plan de la carte en cliquant sur [Plan de la carte]."),"Accueil.Chatbot");
 });
 
 WA.room.area.onLeave('Welcome').subscribe(() => {
+    WA.chat.close();
+});
+
+
+WA.room.area.onLeave('Welcome').subscribe(() => {
+    WA.chat.close();
+});
+
+
+WA.room.area.onEnter("NPD1").subscribe(() => {
+  WA.chat.sendChatMessage(("Je dois gérer un imprévu sur un bâtiment. Il y a des problèmes électriques complexes qui nécessitent toute mon attention. Tout doit être conforme aux normes pour la sécurité de tous. On se voit une autre fois"+ WA.player.name +"?"),"Giuseppe.Chatbot");
+});
+
+WA.room.area.onLeave('NPD1').subscribe(() => {
+    WA.chat.close();
+});
+
+
+WA.room.area.onEnter("NPD2").subscribe(() => {
+  WA.chat.sendChatMessage(("Je suis sur un gros dossier "+ WA.player.name +". Reviens après stp !"),"Yann.Chatbot ");
+});
+
+WA.room.area.onLeave('NPD2').subscribe(() => {
+    WA.chat.close();
+});
+
+WA.room.area.onEnter("NPD3").subscribe(() => {
+  WA.chat.sendChatMessage(("Bonjour "+ WA.player.name +" ! J'ai une réunion de chantier imprévue et urgente dans 5 minutes. Le maitre d'oeuvre a besoin de moi ! On se voit plus tard ?"),"Emilie.Chatbot");
+});
+
+WA.room.area.onLeave("NPD3").subscribe(() => {
+    WA.chat.close();
+});
+
+WA.room.area.onEnter("NPD4").subscribe(() => {
+  WA.chat.sendChatMessage(("Hello "+ WA.player.name +"! Je suis pas dispo, je dois finaliser un rapport important pour l'un de nos projets en cours. N'hésite pas à te promener en attendant !"),"Sarah.Chatbot ");
+});
+
+WA.room.area.onLeave("NPD4").subscribe(() => {
     WA.chat.close();
 });
 
