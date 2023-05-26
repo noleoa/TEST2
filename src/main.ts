@@ -26,7 +26,7 @@ WA.onInit().then(() => {
 
  
 WA.room.area.onEnter("Test").subscribe(() => {
-              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra sois activés.", [{
+              currentPopup = WA.ui.openPopup("TestPopUp", "Vérifies en bas de ton écran que ton micro et ta caméra soient activés.", [{
         label: "Ok, Merci !",
         className: "normal",
         callback: (popup) => {
@@ -72,7 +72,7 @@ WA.room.area.onLeave('Welcome').subscribe(() => {
 
 
 WA.room.area.onEnter("NPD1").subscribe(() => {
-  WA.chat.sendChatMessage(("Je dois gérer un imprévu sur un bâtiment. Il y a des problèmes électriques complexes qui nécessitent toute mon attention. Tout doit être conforme aux normes pour la sécurité de tous. On se voit une autre fois"+ WA.player.name +"?"),"Giuseppe.Chatbot");
+  WA.chat.sendChatMessage(("Je dois gérer un imprévu sur un bâtiment. Il y a des problèmes électriques complexes qui nécessitent toute mon attention. Tout doit être conforme aux normes pour la sécurité de tous. On se voit une autre fois "+ WA.player.name +"?"),"Giuseppe.Chatbot");
 });
 
 WA.room.area.onLeave('NPD1').subscribe(() => {
