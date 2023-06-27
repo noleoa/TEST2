@@ -45,7 +45,6 @@ WA.room.area.onEnter("Test").subscribe(() => {
     }).catch(e => console.error(e));
 
 
-
     }).catch(e => console.error(e));
 function closePopup(){
     if (currentPopup !== undefined) {
@@ -55,10 +54,23 @@ function closePopup(){
 }
 
 
+WA.room.area.onEnter("Test2").subscribe(() => {
+  const popupContent = `<iframe src="https://www.wikipedia.com" width="100%" height="100%"></iframe>`;
+
+  currentPopup = WA.ui.openPopup("TestPopUp2", popupContent, [{
+    label: "Fermer",
+    className: "normal",
+    callback: (popup) => {
+      popup.close();
+    }
+  }]);
+});
+
+
 
 
 WA.room.area.onEnter("Welcome").subscribe(() => {
-  WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !!" + "Ravi de t'accueillir !"+"Dirige-toi vers l'accueil en passant par la porte bleue, quelqu'un va s'occuper de toi !"+ "Si tu es perdu.e, tu peux cliquer sur le bouton [Besoin d'aide ?] en bas de ton écran."+"A tout moment, tu peux également retrouver un plan de la carte en cliquant sur [Plan de la carte]."),"Accueil.Chatbot");
+  WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !" + " Dirige-toi vers l'accueil en passant par la porte. Quelqu'un va s'occuper de toi."),"Accueil.Chatbot");
 });
 
 WA.room.area.onLeave('Welcome').subscribe(() => {
@@ -112,13 +124,20 @@ WA.ui.actionBar.addButton({
 		callback: () => {
         WA.ui.modal.openModal({
 title: "Je suis perdu(e)e",
-        src: "https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf",
+        src: "https://workadventu.re",
 	allow: "fullscreen",
     	allowApi: true,
     	position: "right",
            });
     }
 })
+
+
+    WA.ui.modal.openModal({
+        title: "Tutoriel",
+        src: 'https://docs.google.com/document/d/1sJpzZ50XRonOpl0XYmivPG4Ze7Iv8Nl-6IpMxshzbTY/edit?usp=sharing',
+        position: "center"
+    });
 
 WA.ui.actionBar.addButton({
         id: "map-btn",
