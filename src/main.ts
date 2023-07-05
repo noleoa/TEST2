@@ -33,7 +33,7 @@ WA.room.area.onEnter("Test").subscribe(() => {
             // Close the popup when the "Close" button is pressed.
             popup.close();
         }
-    }])
+    }]);
 
 
     })
@@ -55,16 +55,21 @@ function closePopup(){
 
 
 WA.room.area.onEnter("Test2").subscribe(() => {
-  const popupContent = `<iframe src="https://www.wikipedia.com" width="100%" height="100%"></iframe>`;
+              
+ currentPopup = WA.ui.modal.openModal({
+        title: "Tutoriel",
+        src: 'https://www.videoask.com/fnlar9wd2',
+        position: "left"
+    });
 
-  currentPopup = WA.ui.openPopup("TestPopUp2", popupContent, [{
-    label: "Fermer",
-    className: "normal",
-    callback: (popup) => {
-      popup.close();
-    }
-  }]);
+
+      })
+
+
+WA.room.area.onLeave("Test2").subscribe(() => {
+    WA.ui.modal.closeModal();
 });
+
 
 
 
@@ -124,7 +129,7 @@ WA.ui.actionBar.addButton({
 		callback: () => {
         WA.ui.modal.openModal({
 title: "Je suis perdu(e)e",
-        src: "https://workadventu.re",
+        src: "https://www.videoask.com/fnlar9wd2",
 	allow: "fullscreen",
     	allowApi: true,
     	position: "right",
@@ -135,7 +140,7 @@ title: "Je suis perdu(e)e",
 
     WA.ui.modal.openModal({
         title: "Tutoriel",
-        src: 'https://docs.google.com/document/d/1sJpzZ50XRonOpl0XYmivPG4Ze7Iv8Nl-6IpMxshzbTY/edit?usp=sharing',
+        src: 'https://www.videoask.com/fnlar9wd2',
         position: "center"
     });
 
@@ -145,7 +150,7 @@ WA.ui.actionBar.addButton({
 		callback: () => {
         WA.ui.modal.openModal({
     title: "Plan de la carte",
-        src: "https://www.impots.gouv.fr/sites/default/files/media/1_metier/1_particulier/EV/1_declarer/141_autres_revenus/eco-collabo-fiscal-covoiturage.pdf",
+        src: "https://www.videoask.com/fnlar9wd2",
 	allow: "fullscreen",
     	allowApi: true,
     	position: "right",

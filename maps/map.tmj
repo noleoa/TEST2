@@ -1782,14 +1782,14 @@
          "objects":[
                 {
                  "class":"",
-                 "height":124.6673,
+                 "height":92.6673,
                  "id":44,
                  "name":"TestPopUp2",
                  "rotation":0,
                  "visible":true,
-                 "width":254.7162,
-                 "x":468.42,
-                 "y":1194.03
+                 "width":66.7162,
+                 "x":542.42,
+                 "y":130.03
                 }, 
                 {
                  "class":"",
@@ -2053,14 +2053,14 @@
                 }, 
                 {
                  "class":"area",
-                 "height":126.697,
+                 "height":62.697,
                  "id":109,
                  "name":"Test2",
                  "properties":[
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/www.alpes-controles.fr\/carrieres\/nos-offres\/?metier=&id_location=&profil=D%C3%A9butant"
+                         "value":"https:\/\/www.videoask.com\/fnlar9wd2"
                         }, 
                         {
                          "name":"openWebsiteTrigger",
@@ -2074,9 +2074,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":191.273,
-                 "x":572.3635,
-                 "y":1334.6515
+                 "width":59.273,
+                 "x":604.3635,
+                 "y":222.6515
                 }, 
                 {
                  "class":"area",
@@ -2759,22 +2759,22 @@
                 }, 
                 {
                  "class":"",
-                 "height":19,
+                 "height":36.0000000000001,
                  "id":82,
                  "name":"",
                  "rotation":0,
                  "text":
                     {
                      "bold":true,
-                     "fontfamily":"Arial Black",
-                     "pixelsize":17,
+                     "fontfamily":"8514oem",
+                     "pixelsize":20,
                      "text":"\u25fd ESPACE JARDIN \u25fd",
                      "wrap":true
                     },
                  "visible":true,
                  "width":188,
-                 "x":79.8333333333334,
-                 "y":1006.16666666667
+                 "x":153.833333333333,
+                 "y":1009.16666666667
                 }, 
                 {
                  "class":"",
