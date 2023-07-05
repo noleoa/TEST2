@@ -60,8 +60,7 @@ WA.room.area.onEnter("Test2").subscribe(() => {
         title: "Tutoriel",
         src: 'https://www.videoask.com/fnlar9wd2',
 	allow: "fullscreen",
-    	allowApi: "true",
-        position: "center"
+    	position: "center"
     });
 
 
@@ -154,7 +153,6 @@ WA.ui.actionBar.addButton({
     title: "Plan de la carte",
         src: "https://www.videoask.com/fnlar9wd2",
 	allow: "fullscreen",
-    	allowApi: true,
     	position: "right",
    });
     }
