@@ -59,7 +59,9 @@ WA.room.area.onEnter("Test2").subscribe(() => {
  currentPopup = WA.ui.modal.openModal({
         title: "Tutoriel",
         src: 'https://www.videoask.com/fnlar9wd2',
-        position: "left"
+	allow: "fullscreen",
+    	allowApi: "true",
+        position: "center"
     });
 
 
@@ -131,7 +133,7 @@ WA.ui.actionBar.addButton({
 title: "Je suis perdu(e)e",
         src: "https://www.videoask.com/fnlar9wd2",
 	allow: "fullscreen",
-    	allowApi: true,
+    	allowApi: "true",
     	position: "right",
            });
     }
