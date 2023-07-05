@@ -60,6 +60,7 @@ WA.room.area.onEnter("Test2").subscribe(() => {
         title: "Tutoriel",
         src: 'https://www.videoask.com/fnlar9wd2',
 	allow: "fullscreen",
+	allowApi: true,
 	position: "center",
     });
 
@@ -132,6 +133,7 @@ WA.ui.actionBar.addButton({
 title: "Je suis perdu(e)e",
         src: "https://www.videoask.com/fnlar9wd2",
 	allow: "fullscreen",
+	allowApi: true,
     	position: "right",
            });
     }
@@ -142,6 +144,7 @@ title: "Je suis perdu(e)e",
         title: "Tutoriel",
         src: 'https://www.videoask.com/fnlar9wd2',
 	allow: "fullscreen",
+	allowApi: true,
         position: "center",
     });
 
@@ -153,6 +156,7 @@ WA.ui.actionBar.addButton({
     title: "Plan de la carte",
         src: "https://www.videoask.com/fnlar9wd2",
 	allow: "fullscreen",
+	allowApi: true,
     	position: "right",
    });
     }
