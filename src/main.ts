@@ -74,8 +74,6 @@ WA.room.area.onLeave("Test2").subscribe(() => {
 
 
 
-
-
 WA.room.area.onEnter("Welcome").subscribe(() => {
   WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !" + " Dirige-toi vers l'accueil en passant par la porte. Quelqu'un va s'occuper de toi."),"Accueil.Chatbot");
 });
