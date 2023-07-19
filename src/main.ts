@@ -35,7 +35,6 @@ WA.room.area.onEnter("Test").subscribe(() => {
         }
     }]);
 
-
     })
 
     WA.room.area.onLeave('Test').subscribe(closePopup)
@@ -53,7 +52,6 @@ function closePopup(){
       }
 }
 
-
 WA.room.area.onEnter("Test2").subscribe(() => {
               
  currentPopup = WA.ui.modal.openModal({
@@ -67,12 +65,9 @@ WA.room.area.onEnter("Test2").subscribe(() => {
 
       })
 
-
 WA.room.area.onLeave("Test2").subscribe(() => {
     WA.ui.modal.closeModal();
 });
-
-
 
 WA.room.area.onEnter("Welcome").subscribe(() => {
   WA.chat.sendChatMessage(("Bienvenu.e "+ WA.player.name +" !" + " Dirige-toi vers l'accueil en passant par la porte. Quelqu'un va s'occuper de toi."),"Accueil.Chatbot");
@@ -82,11 +77,9 @@ WA.room.area.onLeave('Welcome').subscribe(() => {
     WA.chat.close();
 });
 
-
 WA.room.area.onLeave('Welcome').subscribe(() => {
     WA.chat.close();
 });
-
 
 WA.room.area.onEnter("NPD1").subscribe(() => {
   WA.chat.sendChatMessage(("Je dois gérer un imprévu sur un bâtiment. Il y a des problèmes électriques complexes qui nécessitent toute mon attention. Tout doit être conforme aux normes pour la sécurité de tous. On se voit une autre fois "+ WA.player.name +"?"),"Giuseppe.Chatbot");
@@ -95,7 +88,6 @@ WA.room.area.onEnter("NPD1").subscribe(() => {
 WA.room.area.onLeave('NPD1').subscribe(() => {
     WA.chat.close();
 });
-
 
 WA.room.area.onEnter("NPD2").subscribe(() => {
   WA.chat.sendChatMessage(("Je suis sur un gros dossier "+ WA.player.name +". Reviens après stp !"),"Yann.Chatbot ");
@@ -121,8 +113,6 @@ WA.room.area.onLeave("NPD4").subscribe(() => {
     WA.chat.close();
 });
 
-
-
 WA.ui.actionBar.addButton({
         id: "help-btn",
         label: "Besoin d'aide ?",
@@ -136,7 +126,6 @@ title: "Je suis perdu(e)e",
            });
     }
 })
-
 
     WA.ui.modal.openModal({
         title: "Tutoriel",
