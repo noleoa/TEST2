@@ -1,7 +1,6 @@
 /// <reference types="@workadventure/iframe-api-typings" />
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
-import { url } from "inspector";
 // Calling bootstrapExtra will initiliaze all the "custom properties"
 bootstrapExtra();
 
