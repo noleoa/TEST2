@@ -62,7 +62,7 @@ function closePopup() {
 WA.room.area.onEnter("Test2").subscribe(() => {
   currentPopup = WA.ui.modal.openModal({
     title: "Tutoriel",
-    src: "https://www.videoask.com/f5x29kfpv",
+    src: "https://noleoa.github.io/TEST2/valeurs.png",
     allow: "fullscreen",
     allowApi: true,
     position: "center",
