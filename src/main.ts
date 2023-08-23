@@ -62,7 +62,7 @@ function closePopup() {
 WA.room.area.onEnter("Test2").subscribe(() => {
   currentPopup = WA.ui.modal.openModal({
     title: "Tutoriel",
-    src: "https://noleoa.github.io/TEST2/valeurs.png",
+    src: "https://noleoa.github.io/TEST2/sounds/Formation.png",
     allow: "fullscreen",
     allowApi: true,
     position: "center",
