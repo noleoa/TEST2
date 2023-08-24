@@ -2516,6 +2516,12 @@
                  "height":31.3637,
                  "id":190,
                  "name":"ABAC4",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/ABAC4.png"
+                        }],
                  "rotation":0,
                  "visible":true,
                  "width":94.6063666666666,
