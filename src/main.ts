@@ -156,7 +156,7 @@ WA.ui.actionBar.addButton({
   callback: () => {
     WA.ui.modal.openModal({
       title: "Plan de la carte",
-      src: "https://www.videoask.com/f5x29kfpv",
+      src: "https://noleoa.github.io/TEST2/maps/map.pdf",
       allow: "fullscreen",
       allowApi: true,
       position: "right",
@@ -171,7 +171,7 @@ WA.room.area.onEnter("Ascenseur").subscribe(() => {
     "",
     [
       {
-        label: "️⬆",
+        label: "1️⃣🔼",
         className: "primary",
         callback: () => {
           WA.player.moveTo(880,475);
@@ -189,7 +189,7 @@ WA.room.area.onEnter("Descente").subscribe(() => {
     "",
     [
       {
-        label: "️⬇",
+        label: "0️⃣🔽",
         className: "normal",
         callback: () => {
           WA.player.moveTo(880,780);
