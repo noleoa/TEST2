@@ -159,7 +159,7 @@ WA.ui.actionBar.addButton({
       src: "https://noleoa.github.io/TEST2/Affiches/map.pdf",
       allow: "fullscreen",
       allowApi: true,
-      position: "right",
+      position: "center",
     });
   },
 });
