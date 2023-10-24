@@ -132,8 +132,8 @@ WA.ui.actionBar.addButton({
   label: "Besoin d'aide ?",
   callback: () => {
     WA.ui.modal.openModal({
-      title: "Je suis perdu(e)e",
-      src: "https://www.videoask.com/f5x29kfpv",
+      title: "Tutoriel",
+      src: "https://noleoa.github.io/TEST2/Affiches/Bienvenue-tuto.pdf",
       allow: "fullscreen",
       allowApi: true,
       position: "right",
@@ -144,7 +144,7 @@ WA.ui.actionBar.addButton({
 
 WA.ui.modal.openModal({
   title: "Tutoriel",
-  src: "https://www.videoask.com/f5x29kfpv",
+  src: "https://noleoa.github.io/TEST2/Affiches/Bienvenue-tuto.pdf",
   allow: "fullscreen",
   allowApi: true,
   position: "center",
