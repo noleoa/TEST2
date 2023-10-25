@@ -136,7 +136,7 @@ WA.ui.actionBar.addButton({
       src: "https://noleoa.github.io/TEST2/Affiches/tuto.pdf",
       allow: "fullscreen",
       allowApi: true,
-      position: "right",
+      position: "center",
     });
   },
 });
@@ -147,7 +147,7 @@ WA.ui.modal.openModal({
   src: "https://noleoa.github.io/TEST2/Affiches/Bienvenue.pdf",
   allow: "fullscreen",
   allowApi: true,
-  position: "center",
+  position: "right",
 });
 
 WA.ui.actionBar.addButton({
