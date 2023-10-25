@@ -133,7 +133,7 @@ WA.ui.actionBar.addButton({
   callback: () => {
     WA.ui.modal.openModal({
       title: "Tutoriel",
-      src: "https://noleoa.github.io/TEST2/Affiches/TESTPPT.pdf",
+      src: "https://noleoa.github.io/TEST2/Affiches/tuto.pdf",
       allow: "fullscreen",
       allowApi: true,
       position: "right",
@@ -144,7 +144,7 @@ WA.ui.actionBar.addButton({
 
 WA.ui.modal.openModal({
   title: "Tutoriel",
-  src: "https://noleoa.github.io/TEST2/Affiches/TESTPPT.pdf",
+  src: "https://noleoa.github.io/TEST2/Affiches/Bienvenue.pdf",
   allow: "fullscreen",
   allowApi: true,
   position: "center",
