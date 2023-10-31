@@ -133,7 +133,7 @@ WA.ui.actionBar.addButton({
   callback: () => {
     WA.ui.modal.openModal({
       title: "Tutoriel",
-      src: "https://noleoa.github.io/TEST2/Affiches/tuto.pdf",
+      src: "https://noleoa.github.io/TEST2/Affiches/Bienvenue.pdf",
       allow: "fullscreen",
       allowApi: true,
       position: "right",
