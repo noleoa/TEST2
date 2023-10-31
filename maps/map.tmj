@@ -2826,7 +2826,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/SDCMagasin.jpg"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/SDCMagasin.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -2843,7 +2843,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/FenetreMagasin.jpg"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/FenetreMagasin.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -2860,7 +2860,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/FenetreChantier.png"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/FenetreChantier.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -2877,7 +2877,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/AGainesChantier.jpg"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/AGainesChantier.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
