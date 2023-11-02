@@ -201,6 +201,6 @@ WA.room.area.onEnter("Descente").subscribe(() => {
 });
 WA.room.area.onLeave("Descente").subscribe(closePopup);
 
-
+WA.player.setOutlineColor(255, 0, 0);
 
 export {};
