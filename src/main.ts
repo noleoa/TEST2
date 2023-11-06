@@ -208,5 +208,4 @@ if(WA.player.tags.includes('Support')) {        // si les tags tu woka incluent 
   WA.player.setOutlineColor(27, 1, 155);   // change la couleur autour du woka à rouge (c'est un code RVB) 
 }
 
-
 export {};
