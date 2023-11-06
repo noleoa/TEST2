@@ -3129,13 +3129,13 @@
                  "class":"",
                  "height":19,
                  "id":147,
-                 "name":"8",
+                 "name":"7",
                  "rotation":0,
                  "text":
                     {
                      "color":"#ffffff",
                      "fontfamily":"Impact",
-                     "text":"8",
+                     "text":"7",
                      "wrap":true
                     },
                  "visible":true,
@@ -3363,13 +3363,13 @@
                  "class":"",
                  "height":19,
                  "id":162,
-                 "name":"8",
+                 "name":"7",
                  "rotation":0,
                  "text":
                     {
                      "color":"#ffffff",
                      "fontfamily":"Impact",
-                     "text":"8",
+                     "text":"7",
                      "wrap":true
                     },
                  "visible":true,
