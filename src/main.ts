@@ -201,6 +201,12 @@ WA.room.area.onEnter("Descente").subscribe(() => {
 });
 WA.room.area.onLeave("Descente").subscribe(closePopup);
 
-WA.player.setOutlineColor(255, 0, 0);
+if(WA.player.tags.includes('Tech')) {        // si les tags tu woka incluent le tag 'manager'
+  WA.player.setOutlineColor(255, 0, 0);   // change la couleur autour du woka à rouge (c'est un code RVB) 
+}
+if(WA.player.tags.includes('Support')) {        // si les tags tu woka incluent le tag 'manager'
+  WA.player.setOutlineColor(27, 1, 155);   // change la couleur autour du woka à rouge (c'est un code RVB) 
+}
+
 
 export {};
