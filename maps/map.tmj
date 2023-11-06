@@ -2773,7 +2773,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/APJ1.jpg"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/PJ1.jpg"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -2885,7 +2885,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/APJ2.jpg"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/PJ2.jpg"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -2902,7 +2902,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/APJ3.jpg"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/PJ3.jpg"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -2919,7 +2919,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/APJ4.jpg"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/PJ4.jpg"
                         }],
                  "rotation":0,
                  "visible":true,
