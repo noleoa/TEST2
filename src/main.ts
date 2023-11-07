@@ -161,14 +161,13 @@ WA.ui.actionBar.addButton({
   callback: () => {
     WA.ui.modal.openModal({
       title: "Plan de la carte",
-      src: "https://noleoa.github.io/TEST2/Affiches/MAP.pdf",
+      src: "https://noleoa.github.io/TEST2/Affiches/map.pdf",
       allow: "fullscreen",
       allowApi: true,
       position: "center",
     });
   },
 });
-
 
 WA.room.area.onEnter("Ascenseur").subscribe(() => {
   currentPopup = WA.ui.openPopup(
