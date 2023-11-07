@@ -2825,7 +2825,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/cred.pdf"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/cred2.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
@@ -3073,7 +3073,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/cred.pdf"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/cred2.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
