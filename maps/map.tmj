@@ -2935,13 +2935,13 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":174.606333333334,
-                 "x":3085.69683333334,
-                 "y":679.984816666667
+                 "width":187.273000000001,
+                 "x":3098.36350000001,
+                 "y":690.651483333334
                 }, 
                 {
                  "class":"area",
-                 "height":61.3637,
+                 "height":95.3637000000001,
                  "id":208,
                  "name":"FenetreMagasin",
                  "properties":[
@@ -2958,7 +2958,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":83.5304,
+                 "height":101.5304,
                  "id":209,
                  "name":"FenetreChantier",
                  "properties":[
@@ -2969,13 +2969,13 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":131.6063,
-                 "x":2685.69685,
+                 "width":177.6063,
+                 "x":2665.69685,
                  "y":683.4848
                 }, 
                 {
                  "class":"area",
-                 "height":60.0304,
+                 "height":86.6970666666667,
                  "id":210,
                  "name":"GainesChantier",
                  "properties":[
@@ -2986,9 +2986,9 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":131.606,
-                 "x":2476.197,
-                 "y":1207.7348
+                 "width":193.606,
+                 "x":2447.53033333333,
+                 "y":1181.06813333333
                 }, 
                 {
                  "class":"area",
@@ -3077,7 +3077,7 @@
                 }, 
                 {
                  "class":"area",
-                 "height":55.3637000000001,
+                 "height":66.6970333333334,
                  "id":226,
                  "name":"PMRMagasin",
                  "properties":[
@@ -3088,8 +3088,8 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":87.9393333333328,
-                 "x":2981.03033333333,
+                 "width":109.939333333333,
+                 "x":2959.03033333333,
                  "y":1112.65148333333
                 }],
          "opacity":1,
