@@ -443,7 +443,7 @@
                         {
                          "name":"openWebsiteTriggerMessage",
                          "type":"string",
-                         "value":"Appuyez sur ESPACE ou ici pour d\u00e9couvrir le m\u00e9tier d'Ing\u00e9nieur.e en Contr\u00f4le Technique de Construction !"
+                         "value":"Appuyez sur ESPACE ou ici pour d\u00e9couvrir notre programme de formation \"Plan Jeune\" !"
                         }],
                  "type":"tilelayer",
                  "visible":true,
