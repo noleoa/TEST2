@@ -2821,6 +2821,12 @@
                  "height":94.0303333333333,
                  "id":195,
                  "name":"CREDCTC",
+                 "properties":[
+                        {
+                         "name":"openWebsite",
+                         "type":"string",
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/cred.pdf"
+                        }],
                  "rotation":0,
                  "visible":true,
                  "width":75.9396666666667,
@@ -3067,7 +3073,7 @@
                         {
                          "name":"openWebsite",
                          "type":"string",
-                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/Planning.pdf"
+                         "value":"https:\/\/noleoa.github.io\/TEST2\/Affiches\/cred.pdf"
                         }],
                  "rotation":0,
                  "visible":true,
