@@ -192,7 +192,7 @@ WA.room.area.onEnter("Ascenseur").subscribe(() => {
         label: "1️⃣🔼",
         className: "primary",
         callback: () => {
-          WA.player.moveTo(1359,475);
+          WA.player.moveTo(1159,200);
         },
         
       },
@@ -210,7 +210,7 @@ WA.room.area.onEnter("Descente").subscribe(() => {
         label: "0️⃣🔽",
         className: "normal",
         callback: () => {
-          WA.player.moveTo(1359,780);
+          WA.player.moveTo(1159,540);
         },
         
       },
