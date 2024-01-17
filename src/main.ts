@@ -132,6 +132,20 @@ WA.room.area.onLeave("NPD4").subscribe(() => {
   WA.chat.close();
 });
 
+WA.room.area.onEnter("NPD5").subscribe(() => {
+  WA.chat.sendChatMessage(
+    "Hello " +
+      WA.player.name +
+      "! Lieu accessible uniquement avec un badge",
+    "Notifications"
+  );
+});
+
+WA.room.area.onLeave("NPD5").subscribe(() => {
+  WA.chat.close();
+});
+
+
 WA.ui.actionBar.addButton({
   id: "help-btn",
   label: "Besoin d'aide ?",
@@ -178,7 +192,7 @@ WA.room.area.onEnter("Ascenseur").subscribe(() => {
         label: "1️⃣🔼",
         className: "primary",
         callback: () => {
-          WA.player.moveTo(880,475);
+          WA.player.moveTo(1359,475);
         },
         
       },
@@ -196,7 +210,7 @@ WA.room.area.onEnter("Descente").subscribe(() => {
         label: "0️⃣🔽",
         className: "normal",
         callback: () => {
-          WA.player.moveTo(880,780);
+          WA.player.moveTo(1359,780);
         },
         
       },
