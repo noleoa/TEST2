@@ -2821,7 +2821,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#c51a1b",
+                     "color":"#ffffff",
                      "fontfamily":"Impact",
                      "pixelsize":19,
                      "text":"B",
@@ -2840,7 +2840,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#c51a1b",
+                     "color":"#ffffff",
                      "fontfamily":"Impact",
                      "pixelsize":19,
                      "text":"A",
@@ -2859,7 +2859,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#c51a1b",
+                     "color":"#ffffff",
                      "fontfamily":"Impact",
                      "pixelsize":19,
                      "text":"D",
@@ -2878,7 +2878,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#c51a1b",
+                     "color":"#ffffff",
                      "fontfamily":"Impact",
                      "pixelsize":19,
                      "text":"E",
@@ -2897,7 +2897,7 @@
                  "rotation":0,
                  "text":
                     {
-                     "color":"#c51a1b",
+                     "color":"#ffffff",
                      "fontfamily":"Impact",
                      "pixelsize":19,
                      "text":"C",
