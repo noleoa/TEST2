@@ -7,6 +7,7 @@ export function findPeopleByPlace(): Map<string|undefined, Array<RemotePlayerInt
 
     // TODO: deduplicate users name. If 2 users have the same name, let's rename one.
 
+
     const peopleByPlace = new Map<string|undefined, Array<RemotePlayerInterface>>();
 
     for (const player of players) {

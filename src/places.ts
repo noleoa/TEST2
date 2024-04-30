@@ -22,6 +22,7 @@ export async function findPlaces(): Promise<Map<string, string|undefined>> {
                         }
                     }
                 }
+                
             }
         }
 
