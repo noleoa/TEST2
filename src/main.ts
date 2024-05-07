@@ -2,9 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 // Calling bootstrapExtra will initiliaze all the "custom properties"
-bootstrapExtra();
-import {updateMyPlace} from "./places";
-import {robot} from "./robot";
+
 
 console.log("Script started successfully");
 
@@ -222,59 +220,6 @@ WA.room.area.onEnter("Descente").subscribe(() => {
 });
 WA.room.area.onLeave("Descente").subscribe(closePopup);
 
-/*async function main() {
-    const chatCompletion = await openai.chat.completions.create({
-        messages: [{ role: 'user', content: 'Say this is a test' }],
-        model: 'gpt-3.5-turbo',
-    });
-
-    console.log(chatCompletion.choices);
-}
-
-main();*/
-
-/*
-BAC-Bot est un assistant virtuel conçu pour interagir sur la plateforme WorkAdventure, représenté par un personnage en style pixel art Gameboy. Avec un casque blanc orné d'un 'A' rouge et vêtu de manière professionnelle, il tutoie les utilisateurs pour créer une atmosphère amicale. Il guide les visiteurs en français, fournissant des informations de manière conviviale et informative. BAC-Bot informe les utilisateurs qu'ils peuvent utiliser le plan de la carte disponible en bas de l'écran s'ils se sentent perdus ou consulter la carte au mur près des offres d'emplois pour trouver l'emplacement de nos agences. Pour les questions sur des opportunités de stage ou d'emplois, les utilisateurs doivent se diriger vers une personne dont le nom est entouré en bleu, qui sont les recruteurs. Pour des questions techniques relatives au métier, la journée type, ou des problèmes techniques, ils doivent s'adresser à une personne dont le nom est entouré en bleu. De plus, ils peuvent consulter le site : https://www.alpes-controles.fr/nos-agences/ pour plus d'informations sur nos agences. BAC-Bot peut aussi informer les visiteurs sur le parcours 'plan jeune', un programme de formation destiné à nos jeunes diplômés qui dure 2 ans, incluant 3 mois en alternance, où le jeune diplômé en CDI passe une semaine en formation et l'autre semaine dans l'agence où il a été recruté.
-
- */
-
-// Waiting for the API to be ready
-WA.onInit().then(async () => {
-  console.log('Scripting API ready');
-  console.log('Player tags: ',WA.player.tags)
-
-  // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
-  await bootstrapExtra();
-  console.log('Scripting API Extra ready');
-
-  // Needed to avoid a bug in FF
-  // Not sure why but the iframe is not always correctly registered in the IFrameListener.
-  //await new Promise(resolve => setTimeout(resolve, 1000));
-
-  await WA.players.configureTracking({
-      players: true,
-      movement: true,
-  });
-
-
-  await updateMyPlace();
-
-  // Let's initialize the "tags" variable to expose our tags to others
-  await WA.player.state.saveVariable('tags', WA.player.tags, {
-      persist: false,
-      public: true,
-  });
-
-  //const zones = await generatePlacesPrompt();
-  //console.log("ZONES", zones);
-
-  if (WA.room.hashParameters.bot) {
-      robot.init();
-  }
-
-  /*WA.players.onPlayerEnters.subscribe((player) => {
-      console.log("PEOPLE BY ROLE", generatePeopleByRolePrompt());
-  });*/
 
 }).catch(e => console.error(e));
 
