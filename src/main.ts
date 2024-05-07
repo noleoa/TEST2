@@ -2,7 +2,7 @@
 
 import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 // Calling bootstrapExtra will initiliaze all the "custom properties"
-
+bootstrapExtra();
 
 console.log("Script started successfully");
 
@@ -221,7 +221,6 @@ WA.room.area.onEnter("Descente").subscribe(() => {
 WA.room.area.onLeave("Descente").subscribe(closePopup);
 
 
-}).catch(e => console.error(e));
 
 export {};
 
