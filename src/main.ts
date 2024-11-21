@@ -107,18 +107,7 @@ WA.room.area.onLeave("NPD2").subscribe(() => {
   WA.chat.close();
 });
 
-WA.room.area.onEnter("NPD3").subscribe(() => {
-  WA.chat.sendChatMessage(
-    "Bonjour " +
-      WA.player.name +
-      " ! J'ai une réunion de chantier imprévue et urgente dans 5 minutes. Le maitre d'oeuvre a besoin de moi ! On se voit plus tard ?",
-    "Emilie.Chatbot"
-  );
-});
 
-WA.room.area.onLeave("NPD3").subscribe(() => {
-  WA.chat.close();
-});
 
 WA.room.area.onEnter("NPD4").subscribe(() => {
   WA.chat.sendChatMessage(
