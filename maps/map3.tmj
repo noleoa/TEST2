@@ -1335,11 +1335,6 @@
                          "name":"jitsiTriggerMessage",
                          "type":"string",
                          "value":"Appuie sur ESPACE ou clique ici pour commencer \u00e0 discuter !"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":0
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1368,23 +1363,6 @@
                  "width":66,
                  "x":1051.25333333333,
                  "y":214.863333333333
-                }, 
-                {
-                 "class":"area",
-                 "height":68.333333333333,
-                 "id":25,
-                 "name":"silentZone",
-                 "properties":[
-                        {
-                         "name":"silent",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "visible":false,
-                 "width":102,
-                 "x":763.66666666667,
-                 "y":893
                 }, 
                 {
                  "class":"area",
@@ -1794,11 +1772,6 @@
                          "name":"jitsiRoom",
                          "type":"string",
                          "value":"MeetingRoomChantier"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":0
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1938,11 +1911,6 @@
                          "name":"jitsiTriggerMessage",
                          "type":"string",
                          "value":"Appuie sur ESPACE ou clique ici pour commencer \u00e0 discuter !"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":0
                         }],
                  "rotation":0,
                  "visible":true,
@@ -1975,11 +1943,6 @@
                          "name":"jitsiTriggerMessage",
                          "type":"string",
                          "value":"Appuie sur ESPACE ou clique ici pour commencer \u00e0 discuter !"
-                        }, 
-                        {
-                         "name":"zoom_margin",
-                         "type":"float",
-                         "value":0
                         }],
                  "rotation":0,
                  "visible":true,
