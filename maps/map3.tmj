@@ -1952,8 +1952,30 @@
                 }, 
                 {
                  "class":"area",
-                 "height":173.333333333333,
+                 "height":431.333333333333,
                  "id":246,
+                 "name":"Conf\u00e9rence",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Ceci est la salle de conf\u00e9rence, c'est l\u00e0 que commence l'\u00e9v\u00e9nement, quand les utilisateurs arrivent ils doivent \u00eatre conduit ici au d\u00e9but de l'\u00e9v\u00e9nement"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":446.666666666667,
+                 "x":1303.33333333333,
+                 "y":444
+                }, 
+                {
+                 "class":"area",
+                 "height":173.333,
+                 "id":248,
                  "name":"Accueil",
                  "properties":[
                         {
@@ -1968,9 +1990,31 @@
                         }],
                  "rotation":0,
                  "visible":true,
-                 "width":310.666666666667,
-                 "x":773.333333333334,
-                 "y":692
+                 "width":310.667,
+                 "x":884.6665,
+                 "y":673.3335
+                }, 
+                {
+                 "class":"area",
+                 "height":255.333,
+                 "id":249,
+                 "name":"Chantier",
+                 "properties":[
+                        {
+                         "name":"ai-zone",
+                         "type":"bool",
+                         "value":true
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Ceci est la partie chantier. Les visiteurs doivent \u00eatre conduits ici s'il n'y a personne en salle de conf\u00e9rence et que l'\u00e9v\u00e9nement a d\u00e9ja d\u00e9but\u00e9"
+                        }],
+                 "rotation":0,
+                 "visible":true,
+                 "width":154.667,
+                 "x":2330.6665,
+                 "y":554.3335
                 }],
          "opacity":1,
          "type":"objectgroup",
@@ -3052,7 +3096,7 @@
          "y":0
         }],
  "nextlayerid":172,
- "nextobjectid":247,
+ "nextobjectid":250,
  "orientation":"orthogonal",
  "properties":[
         {
