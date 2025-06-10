@@ -150,15 +150,6 @@ WA.ui.actionBar.addButton({
   },
 });
 
-
-WA.ui.modal.openModal({
-  title: "Tutoriel",
-  src: "https://noleoa.github.io/TEST2/Affiches/Bienvenue.pdf",
-  allow: "fullscreen",
-  allowApi: true,
-  position: "center",
-});
-
 WA.ui.actionBar.addButton({
   id: "map-btn",
   label: "Plan de la carte",
